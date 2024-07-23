@@ -1,0 +1,39 @@
+{
+  "name": "biblio-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
+    "next": "14.2.2",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.5",
+    "react-intl": "^6.6.8",
+    "react-native-vector-icons": "^10.1.0",
+    "react-router-dom": "^6.23.1",
+    "react-top-loading-bar": "^2.3.1",
+    "shadcn-ui": "^0.2.3",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2",
+    "file-loader": "^6.2.0"
+  },
+  "description": "Ce projet consiste à créer un site web présentant les lieux touristiques en Afrique. Il vise à fournir aux utilisateurs \r des informations détaillées sur les destinations touristiques populaires à travers le continent africain, y compris les attractions, les activités, les hébergements, etc. Le site cible les voyageurs, \r les passionnés de découvertes et toute personne intéressée par les trésors de l'Afrique",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}

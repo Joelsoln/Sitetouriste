@@ -1,0 +1,44 @@
+[
+    {
+        "src": "/zebre1.webp",
+        "alt": "Parc national Kruger en Afrique du sud",
+        "description": "Le parc national Kruger est l'une des réserves animalières les plus célèbres et les plus étendues d'Afrique du Sud. Il abrite une incroyable variété de faune sauvage, notamment des éléphants, des lions, des léopards, des rhinocéros et bien sûr, des zèbres. Explorez ses vastes plaines, ses rivières sinueuses et ses forêts denses lors de safaris guidés ou d'excursions en voiture. Le parc offre également une gamme d'hébergements, allant du camping traditionnel aux lodges de luxe, offrant ainsi une expérience unique de vie sauvage africaine.",
+        "width": 800,
+        "height": 600
+    },
+    {
+        "src": "/sahara.webp",
+        "alt": "Desert du Sahara",
+        "description": "Le Sahara est le plus grand désert chaud du monde, couvrant une grande partie de l'Afrique du Nord. Ses vastes étendues de sable, ses dunes ondulantes et ses oasis cachées en font un paysage spectaculaire et mystique. Découvrez la richesse culturelle et naturelle du Sahara en explorant ses villages traditionnels, en faisant du trekking à dos de chameau et en passant des nuits étoilées sous les tentes berbères. Le Sahara abrite également une biodiversité étonnante, y compris des espèces adaptées à la vie dans des conditions extrêmes.",
+        "width": 800,
+        "height": 600
+    },
+    {
+        "src": "/pyramide.webp",
+        "alt": "Pyramide d'Egypte",
+        "description": "Les pyramides d'Égypte sont parmi les structures les plus emblématiques du monde antique. Construites il y a des milliers d'années par les anciens Égyptiens, ces monuments imposants étaient destinés à servir de tombeaux pour les pharaons et à abriter leurs trésors dans l'au-delà. Explorez les mystères de l'Égypte ancienne en visitant les pyramides de Gizeh, Karnak, et la vallée des rois. Les pyramides témoignent de l'ingéniosité et de la puissance de la civilisation égyptienne, ainsi que de leur croyance en la vie après la mort et dans l'immortalité.",
+        "width": 800,
+        "height": 600
+    },
+    {
+        "src": "/kili.webp",
+        "alt": "Mont Kilimandjaro",
+        "description": "Le mont Kilimandjaro est le plus haut sommet d'Afrique, dominant les plaines de Tanzanie de ses 5 895 mètres d'altitude. L'ascension du Kilimandjaro est un défi passionnant qui attire des alpinistes du monde entier. Parcourez les différents écosystèmes, des forêts tropicales luxuriantes aux glaciers enneigés, et soyez récompensé par des vues à couper le souffle une fois au sommet. Le Kilimandjaro est également un symbole de la lutte contre le changement climatique, avec la fonte progressive de ses glaciers due au réchauffement de la planète.",
+        "width": 800,
+        "height": 600
+    },
+    {
+        "src": "/basil.webp",
+        "alt": "Basilique Notre Dame",
+        "description": "La basilique Notre-Dame de la Paix, située à Yamoussoukro en Côte d'Ivoire, est l'une des plus grandes églises du monde. Construite dans les années 1980, elle est un chef-d'œuvre d'architecture moderne et un symbole de la foi chrétienne en Afrique. Visitez cette impressionnante basilique pour admirer ses vastes espaces, ses vitraux colorés et son ambiance spirituelle. La basilique est également un lieu de pèlerinage pour les fidèles du monde entier, attirant des visiteurs de toutes confessions pour des moments de prière et de contemplation.",
+        "width": 800,
+        "height": 600
+    },
+    {
+        "src": "/sey.webp",
+        "alt": "Îles Seychelles",
+        "description": "Les Seychelles sont un paradis tropical situé dans l'océan Indien, réputé pour ses plages de sable blanc immaculé, ses eaux cristallines et sa biodiversité exceptionnelle. Explorez les îles granitiques et coralliennes, plongez dans les récifs colorés, et découvrez des espèces uniques de flore et de faune. Les Seychelles offrent une escapade de rêve pour les amoureux de la nature et les amateurs de détente. En plus de ses paysages paradisiaques, les Seychelles ont une riche histoire culturelle, influencée par les peuples européens, africains et asiatiques qui ont colonisé les îles au fil des siècles.",
+        "width": 800,
+        "height": 600
+    }
+]

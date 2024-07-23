@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem;
+
+ background-color: var(--first-color);
+  
+    height: 80px;
+     position: fixed;  /*  Rendre le header fixe */
+    top: 0; /* Position en haut */
+    left: 0; /* Position à gauche */
+    width: 100%; /* Largeur complète */
+    z-index: 1000; /* Assurer que le header reste au-dessus des autres éléments */
+  }
+
+  .light{
+    background-color: var(--first-color);
+}
+.dark{
+    background-color: #000;
+}
+
+  
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+  }
+  
+ 
+  
+
+  .h1 {
+    font-size: 22px; /* Définissez la taille de police souhaitée */
+   color: #fff;
+   font-weight: bold;
+}
+  
+  
+  
+  .navContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centrer les éléments horizontalement */
+  }
+  

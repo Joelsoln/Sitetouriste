@@ -1,0 +1,79 @@
+.newSection {
+  margin-top: 20px;
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.textContainer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.textContainer h3 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.textContainer p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0 20px 20px;
+}
+
+.row.justify-content-center h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonialCard {
+  margin-bottom: 20px;
+  border: none;
+  padding: 20px;
+}
+
+.imageContainer {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+  text-align: left;
+  padding: 20px;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.card-body .imageContainer {
+  flex-shrink: 0;
+}
+
+.card-body .card-text {
+  flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    flex-direction: column;
+  }
+
+  .card-body .imageContainer {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+
+  .card-body .card-text {
+    text-align: center;
+  }
+}
+

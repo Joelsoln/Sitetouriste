@@ -1,0 +1,67 @@
+.welcome {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--first-color);
+  font-size: var(--big-font-size);
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textSection {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.carouselSection {
+  flex: 1;
+  padding: 20px;
+}
+
+.aboutUs {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.welcome h1 {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.welcome h1.visible {
+  opacity: 1;
+}
+
+.card {
+  width: 20%; /* Chaque carte occupe 20% de la largeur de la page */
+  margin-right: 2%; /* Marge entre les cartes */
+}
+
+.card:last-child {
+  margin-right: 0; /* Supprime la marge à droite de la dernière carte */
+}
+
+.card-body {
+  width: 100%; /* Le texte occupe toute la largeur de la carte */
+}
+
+.italic {
+  margin-top: 500px;
+}
+.video {
+  width: 70vw; /* 75 % de la largeur de l'écran */
+  height: auto; /* Hauteur automatique pour conserver les proportions de la vidéo */
+}
+

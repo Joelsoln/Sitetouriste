@@ -1,0 +1,119 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2; /* Nouvelle couleur de fond */
+}
+
+.title {
+    font-size: 3.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #333;
+   
+}
+
+.introduction {
+    font-size: 1.7em;
+    margin-bottom: 30px;
+    color: #555;
+    padding: 0 10%;
+    text-align: justify;
+}
+
+.imageContainer {
+    width: 80%;
+    margin: 0 auto 40px auto;
+    background-color: #fff; /* Couleur de fond pour chaque conteneur d'image */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    padding: 20px;
+}
+
+.imageWrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.imageWrapper:hover {
+    transform: scale(1.05);
+}
+
+.image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Initially hidden */
+}
+
+.imageWrapper:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.caption {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.4em;
+    color: #555;
+    margin-top: 40px; /* Augmentation de la marge supérieure */
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 10%;
+}
+
+
+
+.hiddenContent {
+    display: none; 
+}
+
+.showContent {
+    display: block; 
+}
+.showMore {
+    color: var(--first-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em; 
+        margin-bottom: 10px; 
+    }
+
+    .introduction {
+        font-size: 1.3em; 
+        margin-bottom: 10px; 
+        padding: 0 5%; 
+    }
+
+    .description {
+        font-size: 1em; 
+        margin-top: 10px; 
+    }
+    /* Ajout de styles pour le lien "En savoir plus" */
+.showMore {
+    color: var(--first-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+}

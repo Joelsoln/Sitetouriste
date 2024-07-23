@@ -1,0 +1,12 @@
+/* loadingBar.module.css */
+
+.progressBar {
+    height: 4px;
+    background-color: #007bff; /* Couleur de la barre de progression */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: width 0.7s ease; /* Animation de transition */
+  }
+  

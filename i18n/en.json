@@ -1,0 +1,10 @@
+
+{
+   
+    "app.header.menu.lien1": "Home",
+    "app.header.menu.lien2": "Destination",
+    "app.header.menu.lien3": "Attraction",
+    "app.header.menu.lien4": "Contact",
+    "app.header.menu.lien5": "Log In",
+    "app.header.theme": "Dark mode"
+}

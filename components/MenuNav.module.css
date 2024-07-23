@@ -1,0 +1,128 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navList li {
+    margin: 0 1rem;
+}
+.controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.toggleLabel {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.toggleInput {
+    display: none;
+}
+
+.toggleLabel input:checked + svg {
+    color: #FFD700; /* For example, change the icon color when checked */
+}
+
+.active {
+    position: relative;
+    background-color: rgb(40, 78, 40);
+    /* background-color: rgb(184, 119, 21);  */
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    color: #fff; 
+}
+
+
+.navList a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.navList a:hover {
+    color: #ee9f02;
+    transform: scale(1.3);
+}
+
+
+.menuToggle {
+    display: none; 
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.open {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.open:nth-of-type(2) {
+    opacity: 0;
+}
+
+.open:last-of-type {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+@media (max-width: 768px) {
+    .navList {
+        display: none;
+    }
+ 
+    .navList.active {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--first-color);
+        position: fixed;
+        top: 70px;
+        right: 0;
+        width: 250px;
+        padding: 20px;
+        z-index: 1;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .navList.active {
+        transform: translateX(0);
+    }
+
+    .navList li {
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+
+    .navList li:last-child {
+        border-bottom: none;
+    }
+
+    .menuToggle {
+        display: block;
+        cursor: pointer;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+    }
+}
